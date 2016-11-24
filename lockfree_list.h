@@ -112,12 +112,6 @@ namespace kimgbo
 		}
 	
 	private:
-		/*bool CAS(T* regval, T oldval, T newval)
-		{
-			return __sync_bool_compare_and_swap(regval, oldval, newval);
-		}
-		*/
-		
 		class Connection
 		{
 		public:
